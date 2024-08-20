@@ -55,7 +55,8 @@
    ├── __init__.py
    └── utils.py
    ```
-
+## Data Preparation
+Please refer to [Fairseq's speech-to-text modeling tutorial](https://github.com/facebookresearch/fairseq/blob/main/examples/speech_to_text/README.md).
 
 ## Training Transformer-Transducer
 ### ASR Pretraining
