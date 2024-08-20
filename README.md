@@ -255,11 +255,11 @@ nohup fairseq-train ${MUSTC_ROOT}/en-${language} \
 Use the agent ```transducer_agent_v2```
 ```bash
 LANGUAGE=es
-exp=enes.s2t.cs_96.ds_4.kd.t_t.add.prenorm.amp.adam.lr_5e-4.warm_4000.drop_0.1.tk_10000.bsz_160k
+exp=enes.s2t.cs_64.ds_4.kd.t_t.add.prenorm.amp.adam.lr_5e-4.warm_4000.drop_0.1.tk_10000.bsz_160k
 ckpt=average_last_5_40000
 file=./checkpoints/en-${LANGUAGE}/st/${exp}/${ckpt}.pt
-output_dir=results/en-${LANGUAGE}/st
-main_context=96
+output_dir=./results/en-${LANGUAGE}/st
+main_context=64
 downsample=4
 
 simuleval \
@@ -280,11 +280,11 @@ simuleval \
 Use the agent ```monotonic_transducer_agent```
 ```bash
 LANGUAGE=es
-exp=enes.s2t.cs_96.ds_4.kd.mono_t_t.add.prenorm.amp.adam.lr_5e-4.warm_4000.drop_0.1.tk_10000.bsz_160k
+exp=enes.s2t.cs_64.ds_4.kd.mono_t_t.add.prenorm.amp.adam.lr_5e-4.warm_4000.drop_0.1.tk_10000.bsz_160k
 ckpt=average_last_5_40000
 file=./checkpoints/en-${LANGUAGE}/st/${exp}/${ckpt}.pt
-output_dir=results/en-${LANGUAGE}/st
-main_context=96
+output_dir=./results/en-${LANGUAGE}/st
+main_context=64
 downsample=4
 
 simuleval \
