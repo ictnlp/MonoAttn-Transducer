@@ -1,5 +1,5 @@
-# Learning Monotonic Attention in Transducer for Streaming Generation
-
+# Overcoming Non-monotonicity in Transducer-based Streaming Generation
+> **Authors: [Zhengrui Ma](https://scholar.google.com/citations?user=dUgq6tEAAAAJ), [Yang Feng*](https://people.ucas.edu.cn/~yangfeng?language=en), [Min Zhang](https://scholar.google.com/citations?user=CncXH-YAAAAJ&hl=en)**
 
 **Files**:
 
