@@ -305,4 +305,12 @@ simuleval \
 Please kindly cite us if you find our papers or codes useful.
 
 ```
+@inproceedings{
+    ma2025overcoming,
+    title={Overcoming Non-monotonicity in Transducer-based Streaming Generation},
+    author={Zhengrui Ma and Yang Feng and Min Zhang},
+    booktitle={Proceedings of the 42nd International Conference on Machine Learning},
+    year={2025},
+    url={https://arxiv.org/abs/2411.17170}
+}
 ```
